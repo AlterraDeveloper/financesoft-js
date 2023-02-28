@@ -4,9 +4,8 @@ class CustomerEs6 {
     this.CustomerName = customerName;
     this.BlackListProcess = () => {
       return `Blacklist processing... ${this.CustomerName}(${this.CustomerID})`;
-    }
+    };
   }
-
 }
 
 class PrivateCustomerEs6 extends CustomerEs6 {
